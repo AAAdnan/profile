@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  font-family: 'Bellefair', serif;
+  color: white;
+  font-size: 16px;
+  background-image: url(images/London.jpg);
+}
+
+h1 {
+  font-family: 'Meie Script', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  line-height: 1;
+  font-size:30px;
+}
+
+h3 {
+  color: rgb(255, 0,0);
+  font-weight: 95;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+
+#adnan {
+  display: block;
+  margin: auto;
+  border-radius: 50%
+
+}
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.card{
+  background: rgba(90,90,90,0.3);
+}
+
+.inline {
+  margin: 0;
+}
+
+.inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.change-color a{
+  color: rgb(0,0,0);
+  font-size: 35px;
+  text-align: center;
+  padding-right: 125px;
+}
+
+
+.change-color a:hover{
+  color: rgb(255,0,0);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
