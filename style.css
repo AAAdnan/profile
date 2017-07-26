@@ -1,8 +1,8 @@
 body {
   background-color: black;
-  font-family: 'Bellefair', serif;
+  font-family: 'Noto Serif', serif;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 0;
   background-image: url(images/London.jpg);
   background-size:cover;
@@ -11,21 +11,22 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 45px;
+  font-size: 30px;
   line-height: 0.5
 }
 
 h2 {
   text-align: center;
   line-height: 0.8;
-  font-size:30px;
+  font-size:15px;
 }
 
 h3 {
-  color: rgba(255, 0,0,0.8);
+  color: rgba(0, 0,0,0.8);
   font-weight: 92;
-  font-size: 20px;
-  text-shadow: 0 0 1px rgba(0,0,0,1)
+  font-size: 25px;
+  text-shadow: 0 0 1px rgba(0,0,0,1);
+  text-align: center;
 
 }
 
@@ -33,6 +34,24 @@ ul {
   list-style: none;
   display: inline-block;
 }
+
+#some-element {
+  display: none;
+  font-family: 'Noto Serif', serif;
+  color: white;
+  font-size: 12px;
+}
+
+#some-div:hover #some-element{
+  display: block;
+  text-align: center
+}
+
+.fa-film{
+  line-height: 1;
+
+}
+
 
 .text-center{
   text-align: center;
@@ -42,12 +61,15 @@ ul {
 #adnan {
   display: block;
   margin: auto;
-  border-radius: 50%
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  b
 
 }
 
 .container {
-  width: 650px;
+  width: 680px;
   margin: 0 auto;
 }
 
